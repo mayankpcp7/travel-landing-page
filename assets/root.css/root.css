@@ -1,4 +1,8 @@
 :root {
+    /* font-family */
+    --ff-inter: "inter";
+    --ff-poppins: "poppins";
+    --ff-sen: "sen";
     /* font-size */
     --fs-12: 12px;
     --fs-14: 14px;
@@ -79,4 +83,16 @@
 
 .light-grey {
     color: var(--light-grery);
+}
+
+.ff-inter {
+    font-family: var(--ff-inter);
+}
+
+.ff-poppins {
+    font-family: var(--ff-poppins);
+}
+
+.ff-sen {
+    font-family: var(--ff-sen);
 }

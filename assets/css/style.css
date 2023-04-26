@@ -9,10 +9,55 @@
 
 @media(min-width:1440px) {
     .my-container {
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 12px;
-        padding-right: 12px;
+        max-width: 1440px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
     }
+}
+
+.image-style {
+    border-radius: 85px;
+}
+
+.hover-bg {
+    background: #0000004D;
+    border-radius: 85px;
+    opacity: 0;
+
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+
+.hover:hover.hover-bg {
+    opacity: 1 !important;
+}
+
+
+.max-width-370px {
+    max-width: 370px;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.hover-slider:hover circle {
+    fill: black;
+}
+
+.hover-slider:hover path {
+    stroke:white;
 }
