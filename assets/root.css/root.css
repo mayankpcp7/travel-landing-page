@@ -1,0 +1,63 @@
+:root {
+    /* font-size */
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-26: 26px;
+    --fs-40: 40px;
+    --fs-56: 56px;
+    --fs-84: 84px;
+    /* colors */
+    --bg-color: #FAF8ED;
+    --btn-color: #F66F4D;
+    --nav-ul-color: #2E476B;
+    --black-color: #2D3134;
+    --light-grery: #5B5F62;
+    --white-color: #FDFEFF;
+    --yellow-color: #FFC14B;
+
+}
+
+.font-12 {
+    font-size: var(--fs-12);
+}
+
+.font-14 {
+    font-size: var(--fs-14);
+}
+
+.font-16 {
+    font-size: var(--fs-16);
+}
+
+.font-18 {
+    font-size: var(--fs-18);
+}
+
+.font-20 {
+    font-size: var(--fs-20);
+}
+
+.font-24 {
+    font-size: var(--fs-24);
+}
+
+.font-26 {
+    font-size: var(--fs-26);
+}
+
+.font-40 {
+    font-size: var(--fs-40);
+}
+
+.font-56 {
+    font-size: var(--fs-56);
+}
+
+.font-84 {
+    font-size: var(--fs-84);
+}
+.bg-color{background-color: var(--bg-color);}
