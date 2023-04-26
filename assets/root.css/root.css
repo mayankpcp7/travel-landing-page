@@ -60,4 +60,23 @@
 .font-84 {
     font-size: var(--fs-84);
 }
-.bg-color{background-color: var(--bg-color);}
+
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+.btn-color {
+    background-color: var(--btn-color);
+}
+
+.blue-color {
+    color: var(--nav-ul-color);
+}
+
+.black-color {
+    color: var(--black-color);
+}
+
+.light-grey {
+    color: var(--light-grery);
+}
